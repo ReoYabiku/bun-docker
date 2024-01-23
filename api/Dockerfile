@@ -8,4 +8,4 @@ WORKDIR /app/api
 RUN bun install
 
 EXPOSE 4000
-CMD ["bun", "run", "start"]
+ENTRYPOINT ["bun", "run", "start"]
