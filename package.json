@@ -2,6 +2,9 @@
   "name": "bun-docker",
   "module": "index.ts",
   "type": "module",
+  "workspaces":[
+    "api/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
